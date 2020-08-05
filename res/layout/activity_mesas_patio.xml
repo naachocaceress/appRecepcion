@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MesasPatio" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Patio   >"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/mesas1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="23dp" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/mesas2"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="42dp" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas02"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Mesas01"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas05"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Mesas03"
+        android:layout_alignTop="@+id/Mesas02" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas03"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/mesas1"
+        android:layout_alignTop="@+id/Mesas01"
+        android:layout_marginTop="30dp" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas04"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/mesas2"
+        android:layout_below="@+id/Mesas03"
+        android:layout_marginTop="36dp" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas01"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mesas2"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="28dp" />
+
+</RelativeLayout>

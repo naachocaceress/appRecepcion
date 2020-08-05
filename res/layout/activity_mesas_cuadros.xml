@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MesasCuadros" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="&lt;  Cuadros  >"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/mesas1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="46dp" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas03"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/mesas1"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/textView1" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas02"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Mesas01"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp" />
+
+    <com.example.vidon1.Mesas
+        android:id="@+id/Mesas01"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/mesas1"
+        android:layout_below="@+id/mesas1"
+        android:layout_marginTop="69dp" />
+
+</RelativeLayout>
